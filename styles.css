@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+.header{
+    background-color: blue;
+    padding: 80px;
+    text-align: center;
+    color: cornsilk;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.navbar a{
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+}
+.navbar a:hover{
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+.corpo{display: flex;
+flex-flow: row wrap;
+}
+.card{
+    flex: 48%;
+    background: #ccc;
+    height: 200px;
+   margin-left: 2%;
+    margin: 1%;
+}
+@media screen and (max-width:700px){
+    .navbar{
+        flex-direction: column;
+    }
+}
